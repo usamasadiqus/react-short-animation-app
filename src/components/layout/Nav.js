@@ -8,7 +8,8 @@ const Nav = () => {
       >
         <div className="container">
           <a
-            className="navbar-brand js-scroll-trigger animated zoomIn"
+            className="navbar-brand js-scroll-trigger wow animate__animated animate__zoomIn"
+            data-wow-duration="2s"
             href="#page-top"
           >
             <img src="assets/img/navbar-logo.svg" alt="" />
@@ -26,7 +27,10 @@ const Nav = () => {
             <i className="fas fa-bars ml-1" />
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav text-uppercase ml-auto">
+            <ul
+              className="navbar-nav text-uppercase ml-auto wow animate__animated animate__fadeInRight"
+              data-wow-duration="2s"
+            >
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#services">
                   Services

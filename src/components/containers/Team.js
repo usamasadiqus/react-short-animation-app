@@ -5,13 +5,24 @@ const Team = () => {
       <section className="page-section bg-light" id="team">
         <div className="container">
           <div className="text-center">
-            <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 className="section-subheading text-muted">
+            <h2
+              className="section-heading text-uppercase wow animate__animated animate__flipInX"
+              data-wow-duration="2s"
+            >
+              Our Amazing Team
+            </h2>
+            <h3
+              className="section-subheading text-muted wow animate__animated animate__flash"
+              data-wow-duration="2s"
+            >
               Lorem ipsum dolor sit amet consectetur.
             </h3>
           </div>
           <div className="row">
-            <div className="col-lg-4">
+            <div
+              className="col-lg-4 wow animate__animated animate__flipInX"
+              data-wow-duration="2s"
+            >
               <div className="team-member">
                 <img
                   className="mx-auto rounded-circle"
@@ -31,7 +42,10 @@ const Team = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div
+              className="col-lg-4 wow animate__animated animate__flipInX"
+              data-wow-duration="2s"
+            >
               <div className="team-member">
                 <img
                   className="mx-auto rounded-circle"
@@ -51,7 +65,10 @@ const Team = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div
+              className="col-lg-4 wow animate__animated animate__flipInX"
+              data-wow-duration="2s"
+            >
               <div className="team-member">
                 <img
                   className="mx-auto rounded-circle"
@@ -73,7 +90,10 @@ const Team = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8 mx-auto text-center">
+            <div
+              className="col-lg-8 mx-auto text-center wow animate__animated animate__pulse"
+              data-wow-duration="2s"
+            >
               <p className="large text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
                 eaque, laboriosam veritatis, quos non quis ad perspiciatis,

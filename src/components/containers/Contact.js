@@ -5,13 +5,24 @@ const Contact = () => {
       <section className="page-section" id="contact">
         <div className="container">
           <div className="text-center">
-            <h2 className="section-heading text-uppercase">Contact Us</h2>
-            <h3 className="section-subheading text-muted">
+            <h2
+              className="section-heading text-uppercase wow animate__animated animate__flipInX"
+              data-wow-duration="2s"
+            >
+              Contact Us
+            </h2>
+            <h3
+              className="section-subheading text-muted wow animate__animated animate__flash"
+              data-wow-duration="2s"
+            >
               Lorem ipsum dolor sit amet consectetur.
             </h3>
           </div>
           <form id="contactForm" name="sentMessage" noValidate="novalidate">
-            <div className="row align-items-stretch mb-5">
+            <div
+              className="row align-items-stretch mb-5 wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+            >
               <div className="col-md-6">
                 <div className="form-group">
                   <input
@@ -61,7 +72,10 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center">
+            <div
+              className="text-center wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+            >
               <div id="success" />
               <button
                 className="btn btn-primary btn-xl text-uppercase"

@@ -5,7 +5,10 @@ const Clients = () => {
       <div className="py-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-3 col-sm-6 my-3">
+            <div
+              className="col-md-3 col-sm-6 my-3 wow animate__animated animate__lightSpeedInLeft"
+              data-wow-duration="2s"
+            >
               <a href="#!">
                 <img
                   className="img-fluid d-block mx-auto"
@@ -14,7 +17,10 @@ const Clients = () => {
                 />
               </a>
             </div>
-            <div className="col-md-3 col-sm-6 my-3">
+            <div
+              className="col-md-3 col-sm-6 my-3 wow animate__animated animate__lightSpeedInLeft"
+              data-wow-duration="2s"
+            >
               <a href="#!">
                 <img
                   className="img-fluid d-block mx-auto"
@@ -23,7 +29,10 @@ const Clients = () => {
                 />
               </a>
             </div>
-            <div className="col-md-3 col-sm-6 my-3">
+            <div
+              className="col-md-3 col-sm-6 my-3 wow animate__animated animate__lightSpeedInRight"
+              data-wow-duration="2s"
+            >
               <a href="#!">
                 <img
                   className="img-fluid d-block mx-auto"
@@ -32,7 +41,10 @@ const Clients = () => {
                 />
               </a>
             </div>
-            <div className="col-md-3 col-sm-6 my-3">
+            <div
+              className="col-md-3 col-sm-6 my-3 wow animate__animated animate__lightSpeedInRight"
+              data-wow-duration="2s"
+            >
               <a href="#!">
                 <img
                   className="img-fluid d-block mx-auto"
